@@ -1,1 +1,2 @@
-#KitaFit Project
+Kitafit
+
