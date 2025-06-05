@@ -11,6 +11,7 @@ import EducationPage from './pages/EducationPage';
 import MapsPage from './pages/MapsPage';
 import ChatbotPage from './pages/ChatbotPage';
 
+
 export default function App() {
   return (
     <BrowserRouter>

@@ -16,10 +16,17 @@ export default function Navbar() {
       </Link>
 
       <div className="space-x-4 text-sm">
+<<<<<<< HEAD
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
         <Link to="/register">Register</Link>
         <Link to="/dashboard">Dashboard</Link>
+=======
+        <Link to="/" className="px-3 py-2 rounded-md text-gray-600 hover:text-red-600 hover:bg-red-50 active:bg-red-100 transition-all duration-200">Home</Link>
+        <Link to="/login" className="px-3 py-2 rounded-md text-gray-600 hover:text-red-600 hover:bg-red-50 active:bg-red-100 transition-all duration-200">Login</Link>
+        <Link to="/register" className="px-3 py-2 rounded-md text-gray-600 hover:text-red-600 hover:bg-red-50 active:bg-red-100 transition-all duration-200">Register</Link>
+        <Link to="/dashboard" className="px-3 py-2 rounded-md text-gray-600 hover:text-red-600 hover:bg-red-50 active:bg-red-100 transition-all duration-200">Dashboard</Link>
+>>>>>>> 793b481 (nambahin artikel sama nambahin fitur)
       </div>
     </nav>
   );
