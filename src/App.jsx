@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
+// Halaman yang sudah ada
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -10,6 +12,9 @@ import DashboardPage from './pages/DashboardPage';
 import EducationPage from './pages/EducationPage';
 import MapsPage from './pages/MapsPage';
 import ChatbotPage from './pages/ChatbotPage';
+import HistoryPage from './pages/HistoryPage';
+import ConsultingPage from './pages/ConsultingPage'; // Consult
+import LifeCare from './pages/LifeCare'; // LifeCare
 
 export default function App() {
   return (
@@ -27,6 +32,12 @@ export default function App() {
             <Route path='/education' element={<EducationPage />} />
             <Route path='/maps' element={<MapsPage />} />
             <Route path='/chatbot' element={<ChatbotPage />} />
+            <Route path='/history' element={<HistoryPage />} />
+
+            {/* Tambahan dari navbar */}
+            <Route path='/lifemap' element={<ChatBotPage />} />
+            <Route path='/consult' element={<ConsultingPage />} />
+            <Route path='/lifecare' element={<LifeCare />} />
           </Routes>
         </main>
         <Footer />
