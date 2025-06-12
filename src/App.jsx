@@ -10,6 +10,7 @@ import DashboardPage from './pages/DashboardPage';
 import EducationPage from './pages/EducationPage';
 import MapsPage from './pages/MapsPage';
 import ChatbotPage from './pages/ChatbotPage';
+import ConsultingPage from './pages/ConsultingPage';
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
             <Route path='/education' element={<EducationPage />} />
             <Route path='/maps' element={<MapsPage />} />
             <Route path='/chatbot' element={<ChatbotPage />} />
+            <Route path='/consult' element={<ConsultingPage />} />
           </Routes>
         </main>
         <Footer />
